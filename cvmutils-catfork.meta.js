@@ -7,6 +7,6 @@
 // @include http://malakas.ml:6004/*
 // @run-at document-end
 // @grant none
-// @updateURL 
+// @updateURL https://github.com/CollabVM-Unofficial/New-CollabVM/raw/master/cvmutils-catfork.meta.js
 // @downloadURL https://github.com/CollabVM-Unofficial/New-CollabVM/raw/master/cvmutils-catfork.user.js
 // ==/UserScript==
