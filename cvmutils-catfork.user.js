@@ -364,16 +364,6 @@ background-color:#ffffff;
 }
 `]
 )
-// functions added by linuks
-//function runMenu() {
-//    tunnel.sendMessage("key", 65383, 1); // enable super/menu
-//    tunnel.sendMessage("key", 
-//  
-//
-//
-//
-//}
-// end of functions added by linuks
 // functions added by cat
 
 function voteNoForReset() {
