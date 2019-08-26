@@ -4,6 +4,7 @@
 // @namespace collabvm
 // @version 2019.05.31
 // @match http://computernewb.com/*
+// @match http://malakas.ml:6004/*
 // @run-at document-end
 // @grant none
 // ==/UserScript==
