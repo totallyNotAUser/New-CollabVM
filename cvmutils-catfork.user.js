@@ -484,6 +484,7 @@ function typePrompt() {
     }
 }
 
+// functions added by linuks
 function kitOn() {
   	setInterval(() => {
  	 var direction = [1, 2, 4, 8, 16];
@@ -493,6 +494,7 @@ function kitOn() {
 	 tunnel.sendMessage("turn");
 	});
 }
+// EOF functions added by linuks
 
 function addButton(name, funct) {
     var button = document.createElement("button");
