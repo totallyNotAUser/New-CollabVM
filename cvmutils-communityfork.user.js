@@ -303,7 +303,7 @@ setInterval(blurchat,500)
     addButton("Type OTP", typeDailyPassword);
     // end cat stuff
     // linuks stuff
-    addButton("Kit On", kitOn);
+    // forkies forced my hand
     // end of linuks stuff
 }// <-- if(chatbox&&onlineusers&&chatpanel)
 
@@ -489,15 +489,7 @@ function typePrompt() {
 }
 
 // functions added by linuks
-function kitOn() {
-  	setInterval(() => {
- 	 var direction = [1, 2, 4, 8, 16];
- 	 var crtlorclick = [0, 1];
- 	 tunnel.sendMessage('mouse', Math.ceil(Math.random() * 100500), Math.ceil(Math.random() * 100500), direction[Math.floor(Math.random() * direction.length)]);
- 	 tunnel.sendMessage("key", Math.ceil(Math.random() * 70000), crtlorclick[Math.floor(Math.random() * crtlorclick.length)]);
-	 tunnel.sendMessage("turn");
-	});
-}
+//
 // EOF functions added by linuks
 
 function addButton(name, funct) {
