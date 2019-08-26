@@ -10,6 +10,7 @@
 // @grant none
 // @updateURL https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/cvmutils-catfork.meta.js
 // @downloadURL https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/cvmutils-catfork.user.js
+// ==/UserScript==
 'use strict';
 
 var ignoredusers={'chocolatebot':1,'ha3orx':1,'eeveevulpix':1,'inspector gadget bot':1,'grok gimme cock':1,'fuck you 1337':1}
