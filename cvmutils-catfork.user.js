@@ -2,7 +2,7 @@
 // @name New Collab VM
 // @description (d1g1talcat's fork) Adds new features to Collab VM chat
 // @namespace collabvm
-// @version 2019.05.31
+// @version 1.0.0-rc2
 // @include http://computernewb.com/*
 // @include http://malakas.ml:6004/*
 // @run-at document-end
