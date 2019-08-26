@@ -1,14 +1,15 @@
 // ==UserScript==
 // @name New Collab VM
-// @description (d1g1talcat's fork) Adds new features to Collab VM chat
+// @description (d1g1talcat's fork, now the CollabVM Communites fork.) Adds new features to Collab VM chat
+// @license ISC; https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/LICENSE
 // @namespace collabvm
 // @version 1.0.0-rc2
 // @include http://computernewb.com/*
 // @include http://malakas.ml:6004/*
 // @run-at document-end
 // @grant none
-// @updateURL https://github.com/CollabVM-Unofficial/New-CollabVM/raw/master/cvmutils-catfork.meta.js
-// @downloadURL https://github.com/CollabVM-Unofficial/New-CollabVM/raw/master/cvmutils-catfork.user.js
+// @updateURL https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/cvmutils-catfork.meta.js
+// @downloadURL https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/cvmutils-catfork.user.js
 'use strict';
 
 var ignoredusers={'chocolatebot':1,'ha3orx':1,'eeveevulpix':1,'inspector gadget bot':1,'grok gimme cock':1,'fuck you 1337':1}
