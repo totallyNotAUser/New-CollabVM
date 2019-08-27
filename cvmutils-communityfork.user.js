@@ -327,7 +327,7 @@ if(chatbox && onlineusers && chatpanel) {
     addButton("C-M-<del>", ctrlAltDel, cannedKeysHolder);
     rootButtonHolder.appendChild(cannedKeysHolder);
     var typeHolder = document.createElement("div");
-    addButton("Type string", typePrompt, typeHolder);
+    addButton("Autotyper", typePrompt, typeHolder);
     addButton("Set autotyper speed", setAutotyperSpeed, typeHolder);
     rootButtonHolder.appendChild(typeHolder);
     var otpHolder = document.createElement("div");
