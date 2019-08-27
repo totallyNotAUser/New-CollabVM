@@ -8,6 +8,7 @@
 // @include 		http://computernewb.com/collab-vm/*
 // @run-at 			document-end
 // @grant           none
+// @downloadURL     https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/multicollab.user.js
 // ==/UserScript==
 
 // Creates a button.
