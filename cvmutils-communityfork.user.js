@@ -3,7 +3,7 @@
 // @description 	(d1g1talcat's fork, now the CollabVM Communites fork.) Adds new features to Collab VM chat
 // @license 		ISC; https://github.com/CollabVM-Unofficial/New-CollabVM/blob/master/LICENSE
 // @namespace 		https://github.com/CollabVM-Unofficial/New-CollabVM
-// @version 		1.1.1
+// @version 		1.1.2
 // @include 		http://computernewb.com/*
 // @include 		http://malakas.ml:6004/*
 // @run-at 			document-end
@@ -442,7 +442,7 @@ function turn() {
 }
 
 // chars that we have to press SHIFT to type
-var shiftSpecialCharsStr = "!\"#$%&()*+:<>?@|~{}";
+var shiftSpecialCharsStr = "!\"#$%&()*+:<>?@|~{}_";
 var shiftSpecialChars = (function(str) {
     var x = new Array(str.length);
     for(var i = 0; i < str.length; i++) {
