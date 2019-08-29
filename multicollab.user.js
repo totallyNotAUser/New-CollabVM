@@ -14,7 +14,7 @@
 // Creates a button.
 var multColl       = document.createElement ('div');
 multColl.innerHTML = '<button id="CollabButton" type="button">'
-             	   + 'Multicollab</button>';
+             	   + 'Add Presets</button>';
 multColl.setAttribute ('id', 'ButtonContainer');
 document.body.appendChild (multColl);
 // Creates input field for adding new VM IPs
