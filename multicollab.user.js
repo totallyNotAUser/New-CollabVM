@@ -35,7 +35,7 @@ document.getElementById ("AddTheVM").addEventListener (
 	"click", multiadd, false
 );
 
-// The function that adds the user vms, more will be added to the function in the future.
+// The function that adds the user vms, more will be added in the future.
 function multicoll() {
 	multicollab('malakas.ml:6004');
 }
