@@ -4,7 +4,7 @@
 // @author          CollabVM Unofficial
 // @license 		ISC; https://github.com/CollabVM-Unofficial/New-CollabVM/blob/master/LICENSE
 // @namespace 		https://github.com/CollabVM-Unofficial/New-CollabVM
-// @version 		1.0.0
+// @version 		1.0.1
 // @include 		http://computernewb.com/collab-vm/*
 // @run-at 			document-end
 // @grant           none
