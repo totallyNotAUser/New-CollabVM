@@ -440,6 +440,13 @@ function ctrlAltDel() {
 function turn() {
     tunnel.sendMessage("turn");
 }
+function turnBomb() {
+  {tunnel.sendMessage("turn");
+   setTimeout(turn,0)};
+	turn();
+}
+
+
 
 // chars that we have to press SHIFT to type
 var shiftSpecialCharsStr = "!\"#$%&()*+:<>?@|~{}_";
