@@ -442,9 +442,7 @@ function turn() {
     tunnel.sendMessage("turn");
 }
 function turnBomb() {
-  {tunnel.sendMessage("turn");
-   setTimeout(turn,0)};
-	turn();
+  tunnel.sendMessage("turn"); setTimeout(turn,0)};turn();
 }
 
 
