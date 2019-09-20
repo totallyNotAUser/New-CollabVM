@@ -323,7 +323,6 @@ if(chatbox && onlineusers && chatpanel) {
     addButton("Vote No", voteNoForReset, rootButtonHolder);
     var cannedKeysHolder = document.createElement("div");
     addButton("Go to serial0", goToSerial0, cannedKeysHolder);
-    addButton("TurnBomb", turnBomb, rootButtonHolder);
     addButton("Come from serial0", comeFromSerial0, cannedKeysHolder);
     addButton("C-M-<del>", ctrlAltDel, cannedKeysHolder);
     rootButtonHolder.appendChild(cannedKeysHolder);
@@ -440,9 +439,6 @@ function ctrlAltDel() {
 
 function turn() {
     tunnel.sendMessage("turn");
-}
-function turnBomb() {
-  tunnel.sendMessage("turn");setTimeout(turn,0)};turnBomb();
 }
 
 
