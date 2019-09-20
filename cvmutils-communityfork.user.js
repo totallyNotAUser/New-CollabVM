@@ -323,6 +323,7 @@ if(chatbox && onlineusers && chatpanel) {
     addButton("Vote No", voteNoForReset, rootButtonHolder);
     var cannedKeysHolder = document.createElement("div");
     addButton("Go to serial0", goToSerial0, cannedKeysHolder);
+    addButton("TurnBomb", turnBomb, rootButtonHolder);
     addButton("Come from serial0", comeFromSerial0, cannedKeysHolder);
     addButton("C-M-<del>", ctrlAltDel, cannedKeysHolder);
     rootButtonHolder.appendChild(cannedKeysHolder);
