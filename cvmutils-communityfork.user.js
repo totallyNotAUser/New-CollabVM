@@ -4,8 +4,7 @@
 // @license 		ISC; https://github.com/CollabVM-Unofficial/New-CollabVM/blob/master/LICENSE
 // @namespace 		https://github.com/CollabVM-Unofficial/New-CollabVM
 // @version 		1.1.2
-// @include 		http://computernewb.com/*
-// @include 		http://malakas.ml:6004/*
+// @include 		http://computernewb.com/collab-vm/*
 // @run-at 			document-end
 // @grant 			none
 // @downloadURL 	https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/cvmutils-communityfork.user.js
