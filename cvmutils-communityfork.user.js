@@ -5,6 +5,7 @@
 // @namespace 		https://github.com/CollabVM-Unofficial/New-CollabVM
 // @version 		1.1.2
 // @include 		http://computernewb.com/collab-vm/*
+// @include         http://vm.getgle.org/*
 // @run-at 			document-end
 // @grant 			none
 // @downloadURL 	https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/cvmutils-communityfork.user.js
@@ -128,9 +129,7 @@ if(chatbox && onlineusers && chatpanel) {
 	    for(var thisnode of mutation.addedNodes) {
 		var username = thisnode.getElementsByClassName("username")[0];
 		if(!initial)
-		    thisnode.firstChild.dataset.time = date.toLocaleTimeString(undefined, {
-			hour12: false
-		    });
+		    thisnode.firstChild.dataset.time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
 		if(username) {
 		    var user = username.firstChild.nodeValue;
 		    if(ignoredusers[user.toLowerCase()]) {
@@ -354,7 +353,7 @@ element(
 color:#000000;
 background-color:#ffffff;
 }
-.mentioned{ 
+.mentioned{
 	background-color: #000;
 	color:#ffff88;
 }
