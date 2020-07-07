@@ -280,7 +280,7 @@ if(chatbox && onlineusers && chatpanel) {
 	    var text = event.currentTarget.value;
 	    sentmessages.unshift(text);
 	    sentindex = -1;
-	    event.currentTarget.value = text.replace(/[^\da-z`~!@#$%^&*()\-_=+[\]{};"\\:"|, .\/<>? ]+/gi, jsesc).slice(0, maxChatMsgLen);
+	    event.currentTarget.value = text.replace(/[^\da-z`~!@#$%^&*()\-_=+[\]{};"\\:'"|, .\/<>? ]+/gi, jsesc).slice(0, maxChatMsgLen);
 	    document.getElementById("chat-send-btn").click();
 	} else if(event.keyCode == 38) { // Up
 	    event.preventDefault();
@@ -717,14 +717,22 @@ function insertAfter(append, target) {
 	parent.appendChild(append);
     }
 }
-function jsesc(str) {
-    let result = [];
-    for(let codePoint of str) {
-	let codePointValue = codePoint.codePointAt(0);
-	result.push(codePointValue > 0xff
-		    ? codePointValue > 0xffff ? `\\u{${codePointValue.toString(16)}}`
-		    : `\\u${codePointValue.toString(16).padStart(4, "0")}`
-		    : `\\x${codePointValue.toString(16).padStart(2, "0")}`);
-    }
-    return result.join("");
+function jsesc(argument){
+	var result=''
+	for(var i=0;i<argument.length;i++){
+		var character=argument.charAt(i)
+		var first=argument.charCodeAt(i)
+		if(first>=55296&&first<=56319&&argument.length>i+1){
+			var second=argument.charCodeAt(i+1)
+			if(second>=56320&&second<=57343){
+				result+='\\u{'+hex+'}'
+				i++
+				continue
+			}
+		}
+		var hex=character.charCodeAt(0).toString(16)
+		var longhand=hex.length>2
+		result+='\\'+(longhand?'u':'x')+('0000'+hex).slice(longhand?-4:-2)
+	}
+	return result
 }
