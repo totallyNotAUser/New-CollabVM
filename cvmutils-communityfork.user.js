@@ -400,6 +400,9 @@ background-color:#ffffff;
   font-weight: bold;
   color: #000;
 }
+.username, #online-users>.list-group-item {
+  font-family: monospace;
+}
 `]
 )
 // functions added by cat
