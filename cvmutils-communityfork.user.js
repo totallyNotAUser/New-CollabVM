@@ -129,7 +129,7 @@ if(chatbox && onlineusers && chatpanel) {
 	    for(var thisnode of mutation.addedNodes) {
 		var username = thisnode.getElementsByClassName("username")[0];
 		if(!initial)
-		    thisnode.firstChild.firstChild.dataset.time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + " ";
+		    thisnode.firstChild.firstChild.dataset.time = date.getHours().toString().padStart(2, "0") + ":" + date.getMinutes().toString().padStart(2, "0") + ":" + date.getSeconds().toString().padStart(2, "0") + " ";
 		if(username) {
 		    var user = username.firstChild.nodeValue;
 		    if(ignoredusers[user.toLowerCase()]) {
@@ -400,11 +400,17 @@ background-color:#ffffff;
   font-weight: bold;
   color: #000;
 }
-.username, #online-users>.list-group-item {
+.username, #online-users>.list-group-item, #chat-user {
   font-family: monospace;
 }
 .username::before {
   color: #000;
+}
+.focused {
+  box-shadow: 0px 0px 10px 10px rgb(45, 213, 255);
+}
+.waiting {
+  box-shadow: 0px 0px 10px 10px rgb(242, 255, 63);
 }
 `]
 )
