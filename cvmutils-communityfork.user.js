@@ -129,7 +129,7 @@ if(chatbox && onlineusers && chatpanel) {
 	    for(var thisnode of mutation.addedNodes) {
 		var username = thisnode.getElementsByClassName("username")[0];
 		if(!initial)
-		    thisnode.firstChild.firstChild.dataset.time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + " ";
+		    thisnode.firstChild.firstChild.dataset.time = date.getHours().toString().padStart(2, "0") + ":" + date.getMinutes().toString().padStart(2, "0") + ":" + date.getSeconds().toString().padStart(2, "0") + " ";
 		if(username) {
 		    var user = username.firstChild.nodeValue;
 		    if(ignoredusers[user.toLowerCase()]) {
