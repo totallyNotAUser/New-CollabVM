@@ -71,5 +71,13 @@ body {
 .message-pane li:hover {
     background-color: #2b2b2b;
 }
+.has-turn.list-group-item {
+    background-color: #365c6b;
+    color: white;
+}
+.waiting-turn.list-group-item {
+    background-color: #66662C;
+    color: white;
+}
 `;
 document.head.appendChild(styleElem);
