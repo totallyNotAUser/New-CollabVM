@@ -3,7 +3,7 @@
 // @description 	read the name and u will understand what it does
 // @license 		ISC; https://github.com/CollabVM-Unofficial/New-CollabVM/blob/master/LICENSE
 // @namespace 		https://github.com/CollabVM-Unofficial/New-CollabVM
-// @version 		1.0
+// @version 		1.0.1
 // @include 		http://computernewb.com/collab-vm/*
 // @run-at 			document-end
 // @grant 			none
@@ -44,6 +44,20 @@ body {
 }
 .navbar-brand, .navbar-collapse>ul>li>a, .page-header>h2, #vm-list, .thumbnail>.caption>h4 {
   color: #ddd !important;
+}
+
+.greentext {
+  color: #8766dd !important;
+}
+.redtext{
+    color:#0fb8b8 !important;
+}
+.bluetext{
+    color:#df7266 !important;
+}
+.blindyourasstext{
+  color:#ffffff !important;
+  background-color:#000000 !important;
 }
 `;
 document.head.appendChild(styleElem);
