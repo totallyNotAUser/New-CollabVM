@@ -68,5 +68,8 @@ body {
 .panel {
     border-color: #444;
 }
+.message-pane li:hover {
+    background-color: #2b2b2b;
+}
 `;
 document.head.appendChild(styleElem);
