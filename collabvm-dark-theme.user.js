@@ -45,19 +45,5 @@ body {
 .navbar-brand, .navbar-collapse>ul>li>a, .page-header>h2, #vm-list, .thumbnail>.caption>h4 {
   color: #ddd !important;
 }
-
-.greentext {
-  color: #8766dd !important;
-}
-.redtext{
-    color:#0fb8b8 !important;
-}
-.bluetext{
-    color:#df7266 !important;
-}
-.blindyourasstext{
-  color:#ffffff !important;
-  background-color:#000000 !important;
-}
 `;
 document.head.appendChild(styleElem);
