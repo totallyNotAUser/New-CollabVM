@@ -129,7 +129,7 @@ if(chatbox && onlineusers && chatpanel) {
 	    for(var thisnode of mutation.addedNodes) {
 		var username = thisnode.getElementsByClassName("username")[0];
 		if(!initial)
-		    thisnode.firstChild.dataset.time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+		    thisnode.firstChild.firstChild.dataset.time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + " ";
 		if(username) {
 		    var user = username.firstChild.nodeValue;
 		    if(ignoredusers[user.toLowerCase()]) {
@@ -402,6 +402,9 @@ background-color:#ffffff;
 }
 .username, #online-users>.list-group-item {
   font-family: monospace;
+}
+.username::before {
+  color: #000;
 }
 `]
 )
