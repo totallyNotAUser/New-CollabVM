@@ -400,7 +400,7 @@ background-color:#ffffff;
   font-weight: bold;
   color: #000;
 }
-.username, #online-users>.list-group-item {
+.username, #online-users>.list-group-item, #chat-user {
   font-family: monospace;
 }
 .username::before {
