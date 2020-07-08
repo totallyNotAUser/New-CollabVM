@@ -406,6 +406,12 @@ background-color:#ffffff;
 .username::before {
   color: #000;
 }
+.focused {
+  box-shadow: 0px 0px 10px 10px rgb(45, 213, 255);
+}
+.waiting {
+  box-shadow: 0px 0px 10px 10px rgb(242, 255, 63);
+}
 `]
 )
 // functions added by cat
