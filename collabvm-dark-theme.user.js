@@ -56,7 +56,7 @@ body {
 .username::before {
     color: #fff;
 }
-.username {
+.username, .message-pane .username {
     color: white;
 }
 .input-group-addon, .form-control {
