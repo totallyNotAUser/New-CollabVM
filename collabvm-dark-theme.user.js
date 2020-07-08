@@ -79,5 +79,10 @@ body {
     background-color: #66662C;
     color: white;
 }
+.alert-info {
+    background-image: none;
+    border-color: #434343;
+    color: white;
+}
 `;
 document.head.appendChild(styleElem);
