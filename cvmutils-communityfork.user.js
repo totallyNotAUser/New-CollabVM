@@ -321,7 +321,8 @@ if(chatbox && onlineusers && chatpanel) {
     addButton("Vote No", voteNoForReset, rootButtonHolder);
     var cannedKeysHolder = document.createElement("div");
     addButton("Go to serial0", goToSerial0, cannedKeysHolder);
-    addButton("Come from serial0", comeFromSerial0, cannedKeysHolder);
+    addButton("Go to parallel0", goToParallel0, cannedKeysHolder);
+    addButton("Come from serial0/parallel0", comeFromSerial0, cannedKeysHolder);
     addButton("C-M-<del>", ctrlAltDel, cannedKeysHolder);
     rootButtonHolder.appendChild(cannedKeysHolder);
     var typeHolder = document.createElement("div");
@@ -425,6 +426,15 @@ function goToSerial0() {
     tunnel.sendMessage("key", 65513, 1); // enable ALT
     tunnel.sendMessage("key", 50, 1); // 2
     tunnel.sendMessage("key", 50, 0);
+    tunnel.sendMessage("key", 65513, 0);
+    tunnel.sendMessage("key", 65507, 0);
+}
+
+function goToParallel0() {
+    tunnel.sendMessage("key", 65507, 1); // enable CTRL
+    tunnel.sendMessage("key", 65513, 1); // enable ALT
+    tunnel.sendMessage("key", 51, 1); // 3
+    tunnel.sendMessage("key", 51, 0);
     tunnel.sendMessage("key", 65513, 0);
     tunnel.sendMessage("key", 65507, 0);
 }
