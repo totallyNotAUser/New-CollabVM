@@ -6,6 +6,7 @@
 // @version 		1.1.2
 // @include 		http://computernewb.com/collab-vm/*
 // @include         http://vm.getgle.org/*
+// @include         http://collabvm.wizemc.net/*
 // @run-at 			document-end
 // @grant 			none
 // @downloadURL 	https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/cvmutils-communityfork.user.js
