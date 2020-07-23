@@ -2,7 +2,7 @@
 // @name            New Collab VM
 // @description     (d1g1talcat's fork, now the CollabVM Communites fork.) Adds new features to Collab VM chat
 // @license         ISC; https://github.com/forkiesassds/New-CollabVM/blob/undfuedddd/LICENSE
-// @namespace       https://github.com/CollabVM-Unofficial/New-CollabVM
+// @namespace       https://github.com/forkiesassds/New-CollabVM
 // @version         1.1.2
 // @include         http://computernewb.com/collab-vm/*
 // @include         http://vm.getgle.org/*
