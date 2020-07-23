@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name          CollabVM dark theme
 // @description   read the name and u will understand what it does
-// @license       ISC; https://github.com/CollabVM-Unofficial/New-CollabVM/blob/master/LICENSE
-// @namespace     https://github.com/CollabVM-Unofficial/New-CollabVM
+// @license       ISC; https://github.com/forkiesassds/New-CollabVM/blob/master/LICENSE
+// @namespace     https://github.com/forkiesassds/New-CollabVM
 // @version       1.0.1
 // @include       http://computernewb.com/collab-vm/*
 // @run-at        document-end
