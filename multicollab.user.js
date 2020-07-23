@@ -2,13 +2,13 @@
 // @name            Easy Multicollab
 // @description     Add user vms to the main page with a click of a button!
 // @author          CollabVM Unofficial
-// @license         ISC; https://github.com/CollabVM-Unofficial/New-CollabVM/blob/master/LICENSE
-// @namespace       https://github.com/CollabVM-Unofficial/New-CollabVM
+// @license         ISC; https://github.com/forkiesassds/New-CollabVM/blob/master/LICENSE
+// @namespace       https://github.com/forkiesassds/New-CollabVM
 // @version         1.0.1
 // @include         http://computernewb.com/collab-vm/*
 // @run-at          document-end
 // @grant           none
-// @downloadURL     https://raw.githubusercontent.com/CollabVM-Unofficial/New-CollabVM/master/multicollab.user.js
+// @downloadURL     https://raw.githubusercontent.com/forkiesassds/New-CollabVM/master/multicollab.user.js
 // ==/UserScript==
 "use strict";
 
