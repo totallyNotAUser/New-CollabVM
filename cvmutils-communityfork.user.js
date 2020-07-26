@@ -450,9 +450,6 @@ background-color:#ffffff;
 .username, #online-users>.list-group-item, #chat-user {
   font-family: monospace;
 }
-.username::before {
-  color: #000;
-}
 .focused {
   box-shadow: 0px 0px 10px 10px rgb(45, 213, 255);
 }
