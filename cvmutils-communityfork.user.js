@@ -36,7 +36,7 @@ function withAdviceBefore(advised, advice) {
   };
 }
 
-let typerDelay = 125;
+let typerDelay = 25;
 
 var ignoredusers = {
   ["chocolatebot"]: 1,
@@ -566,7 +566,7 @@ function setAutotyperSpeed() {
   typerDelay =
     parseInt(
       prompt(
-        "How many milliseconds between characters? (Default 125; too fast may cause errors)"
+        "How many milliseconds between characters? (Default is 25)"
       )
     ) || 125;
 }
